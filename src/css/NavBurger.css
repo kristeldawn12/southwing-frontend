@@ -1,0 +1,106 @@
+/* NAVIGATION */
+
+.brand-logo > img {
+  width: 5em;
+  height: 5em;
+  padding: 0.2em;
+}
+
+.profile-icon > img {
+  width: 3em;
+  height: 3em;
+  margin-right: 0.5em;
+}
+
+.profile-icon {
+  display: flex;
+  align-items: center;
+}
+
+.burger-icon {
+  width: 2em;
+  height: 2em;
+}
+
+.nav-container {
+  width: 100%;
+  height: 5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  background-color: #ffc61a;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 1.6rem;
+  background: none;
+}
+
+.nav-menu {
+  background-color: #ffc61a;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 2em 0 1em 2em;
+  height: 5em;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #372a28;
+  font-size: 1.5em;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 1em;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  font-family: bold;
+}
+
+.nav-text a:hover {
+  color: #fff4ea;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+span {
+  margin: 0.5em;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+.toggle-icon {
+  margin-left: 2rem;
+  width: 2em;
+  height: 2em;
+}

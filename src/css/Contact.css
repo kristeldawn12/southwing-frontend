@@ -1,0 +1,46 @@
+/* CONTACT PAGE */
+
+.contact-bg {
+  background-color: #fff4ea;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.contact-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us > h2,
+.visit-us > h2,
+.social-media > h2 {
+  font-size: 2.5em;
+  color: #372a28;
+  margin-top: 0.8em;
+}
+
+.contact-us > p,
+.visit-us > p {
+  font-size: 1.5em;
+  color: #372a28;
+  padding: 0.3em 0;
+}
+
+.social-links-contact {
+  display: flex;
+  margin-top: 0.5em;
+}
+
+.store-map {
+  width: 35em;
+  margin-left: 2em;
+}
+
+.address-map {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

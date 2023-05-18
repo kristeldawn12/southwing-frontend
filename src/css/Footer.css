@@ -1,0 +1,27 @@
+/* FOOTER PAGE */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 2em;
+}
+
+.footer > p {
+  font-size: 1em;
+  color: #372a28;
+  padding-left: 1em;
+  text-transform: uppercase;
+}
+
+.footer-child2 {
+  position: absolute;
+  top: 96vh;
+  background-color: #fff4ea;
+}
+
+.social-links-footer {
+  display: flex;
+  margin-right: 1em;
+  margin-top: 0.5em;
+}

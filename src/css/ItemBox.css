@@ -1,0 +1,75 @@
+/* Item Container */
+
+.menu-item-image > img {
+  width: 7em;
+  height: 6em;
+  background-size: cover;
+  border-radius: 0.2em;
+}
+
+/* image box */
+
+.image-box {
+  width: 7em;
+  display: flex;
+  align-items: center;
+  margin-left: 0.5em;
+}
+
+/* name, description, price, add-sign box */
+
+.item-content {
+  width: 35em;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+/* name & description */
+
+.name-desc {
+  padding: 0.5em 1em;
+  width: 28em;
+}
+
+.name-desc > h6 {
+  margin-bottom: 0.5em;
+  font-size: 1.1em;
+}
+
+.name-desc > p {
+  font-size: 14px;
+}
+
+/* price & add-sign */
+
+.price-addCart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1em;
+  height: 2em;
+}
+
+.price > p {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.add-cart {
+  transition: all 0.1s ease-in-out;
+}
+
+.add-cart > button {
+  border: none;
+  background-color: #f8f7f4;
+}
+
+.add-cart:hover {
+  transform: scale(1.1);
+}
+
+.add-sign > img {
+  width: 2em;
+  height: 2em;
+}

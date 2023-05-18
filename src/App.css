@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Source Code Pro", monospace;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.parent {
+  position: relative;
+}
+
+.home-container,
+.about-container,
+.contact-container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* HOME PAGE */
+
+.home-background {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./assets/images/home-bg.png");
+  background-size: cover;
+}
+
+/* ABOUT PAGE */
+
+.about-art {
+  background-image: url("./assets/images/southwing-art.jpg");
+  width: 50%;
+  background-size: cover;
+  margin-top: 5em;
+  display: flex;
+}

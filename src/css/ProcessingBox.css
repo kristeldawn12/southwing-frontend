@@ -1,0 +1,64 @@
+/* PROCESSING Popup Box*/
+
+.processing-order {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background-color: #ffc61a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1em;
+}
+
+.processing-order > p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.logo-display {
+  width: 10em;
+  height: 10em;
+}
+
+/* Order-Display component */
+
+.display-box > h4,
+.display-box > p,
+.hashtag {
+  color: #372a28;
+  text-align: center;
+}
+
+.display-box > h4 {
+  font-size: 2em;
+}
+
+.display-box > p {
+  font-size: 1em;
+}
+
+.hashtag {
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-size: 1.5em;
+}
+
+.close-display {
+  width: 4em;
+  border: none;
+  background-color: #fff4ea;
+  border-radius: 0.2em;
+  cursor: pointer;
+  margin-top: 1em;
+  transition: all 0.1s ease-in-out;
+}
+
+.close-display:hover {
+  transform: scale(1.1);
+}
+
+.close-display p {
+  font-size: 1em;
+}

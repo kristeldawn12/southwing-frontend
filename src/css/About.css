@@ -1,0 +1,55 @@
+/* ABOUT PAGE */
+
+.about-bg {
+  background-color: #84301c;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.about-container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.about-info {
+  width: 50%;
+  min-height: 100;
+}
+
+.about-text {
+  width: 80%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text h1 {
+  padding: 0.5em;
+  color: #ede1c2;
+  font-size: 2.8em;
+}
+
+.about-text > p {
+  font-family: "Caveat", cursive;
+  font-size: 1.8em;
+  color: #ede1c2;
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+}
+
+.about-social-media {
+  display: flex;
+}
+
+.about-child2 {
+  position: absolute;
+  top: 48em;
+  left: 98.5em;
+}
+
+.text-cursive {
+  font-family: "Caveat", cursive;
+}
